@@ -5,7 +5,15 @@
 }
 
 #navbar img {
+    display: inline-block;
     margin-top: 12px;
     margin-left: 10px;
     height: 100px;
+}
+
+#navbar p   {
+    position: absolute;
+    display: inline-block;
+    right: 10%;
+    margin-top: 50px;
 }
