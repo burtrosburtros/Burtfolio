@@ -6,14 +6,19 @@
 
 #navbar img {
     display: inline-block;
+    float: left;
     margin-top: 17px;
-    margin-left: 10px;
+    margin-left: 20px;
     height: 100px;
 }
 
-#navbar p   {
-    position: absolute;
+#navbar li   {
     display: inline-block;
-    right: 10%;
-    margin-top: 50px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
