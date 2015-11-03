@@ -48,6 +48,24 @@
     color: white;
 }
 
+#logo-header    {
+    font-size: 50px;
+    padding: 75px 0 50px 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#underline  {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 3px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
 .og-grid {
 	list-style: none;
 	padding: 20px 0;
@@ -58,7 +76,7 @@
 
 .og-grid li {
 	display: inline-block;
-	margin: 10px 5px 0 5px;
+	margin: 40px 50px 0 50px;
 	vertical-align: top;
 	height: 250px;
 }
