@@ -76,9 +76,8 @@
 
 .og-grid li {
 	display: inline-block;
-	margin: 40px 50px 0 50px;
-	vertical-align: top;
-	height: 250px;
+	margin: 40px 50px 50px 50px;
+	vertical-align: center;
 }
 
 .og-grid li > a,
