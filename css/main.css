@@ -87,3 +87,7 @@
 	display: block;
 	position: relative;
 }
+
+#hero   {
+    width: 100%;
+}
