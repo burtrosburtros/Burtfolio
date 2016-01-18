@@ -16,8 +16,11 @@
 }
 
 #logo-header    {
-    font-size: 50px;
-    padding: 75px 0 50px 0;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 40px;
+    padding-top: 5%; padding-bottom: 5%;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -59,6 +62,23 @@
     width: 100%;
 }
 
+#hero-logo  {
+    width: 40%;
+    max-width: 400px;
+    margin-left: auto; margin-right: auto; margin-top: 8%;
+    display: block;
+}
+
 #logos  {
     height: 200px;
+}
+
+#logo-body  {
+    width: 75%;
+    text-align: center; 
+    margin: 8% auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 4vw;
+    line-height: 125%;
 }
