@@ -19,7 +19,7 @@
     width: 100%;
     margin: 0 auto;
     margin-top: 5%;
-    font-size: 40px;
+    font-size: 6vw;
     padding-top: 5%; padding-bottom: 5%;
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -44,7 +44,21 @@
 	width: 100%;
 }
 
+.og-grid-poly {
+	list-style: none;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
 .og-grid li {
+	display: inline-block;
+	margin: 40px 50px 50px 50px;
+	vertical-align: middle;
+}
+
+.og-grid-poly li {
 	display: inline-block;
 	margin: 40px 50px 50px 50px;
 	vertical-align: middle;
@@ -52,6 +66,14 @@
 
 .og-grid li > a,
 .og-grid li > a img {
+	border: none;
+	outline: none;
+	display: block;
+	position: relative;
+}
+
+.og-grid-poly li > a,
+.og-grid-poly li > a img {
 	border: none;
 	outline: none;
 	display: block;
@@ -69,8 +91,15 @@
     display: block;
 }
 
+#hero-logo-final  {
+    width: 60%;
+    max-width: 400px;
+    margin-left: auto; margin-right: auto; margin-top: 10%;
+    display: block;
+}
+
 #logos  {
-    height: 200px;
+    height: 150px;
 }
 
 #logo-body  {
@@ -81,4 +110,31 @@
     font-weight: 300;
     font-size: 4vw;
     line-height: 125%;
+}
+
+#sub-head   {
+     width: 75%;
+    text-align: center; 
+    margin: 8% auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 6vw;
+    line-height: 125%;
+}
+
+#req-head   {
+    font-weight: 400;
+     width: 75%;
+    text-align: center; 
+    margin: 0 auto; margin-bottom: -5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 125%;
+}
+
+#roughs {
+    width: 75%;
+    display: block;
+    margin-left: auto; margin-right: auto;
 }
