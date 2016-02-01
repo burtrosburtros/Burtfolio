@@ -98,8 +98,16 @@
     display: block;
 }
 
+#logos-main {
+    height: 200px;
+}
+
 #logos  {
-    height: 150px;
+    height: 25vw;
+}
+
+#logos-wide {
+    width: 45vw;
 }
 
 #logo-body a    {
