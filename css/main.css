@@ -6,17 +6,16 @@
 
 #headlogo {
     display: inline-block;
-    float: left;
     margin-top: 2%;
     margin-left: 5%;
     width: 25%;
     max-width: 110px;
-    margin-bottom: -34px;
-    margin-right: 25px;
+    margin-right: 75px;
 }
 
 #logo-header    {
     width: 100%;
+    display: inline-block;
     margin: 0 auto;
     margin-top: 5%;
     font-size: 6vw;
