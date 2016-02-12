@@ -121,6 +121,16 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     font-size: 4vw;
+    line-height: 135%;
+}
+
+#logo-body-asterisk  {
+    width: 75%;
+    text-align: center; 
+    margin: 8% auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
     line-height: 125%;
 }
 
