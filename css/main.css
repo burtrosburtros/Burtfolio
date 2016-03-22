@@ -175,3 +175,16 @@
     display: block;
     margin-left: auto; margin-right: auto;
 }
+
+#social {
+    display: block;
+    width: 10%;
+    margin-right: auto; margin-left: auto;
+}
+
+#socialbox   {
+    display: block;
+    width: 100%;
+    margin-top: 15%;
+    float: left;
+}
