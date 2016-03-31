@@ -14,6 +14,7 @@
 }
 
 #logo-header    {
+    text-shadow: 1px 1px rgba(128, 128, 128, 0.13);
     width: 100%;
     display: inline-block;
     margin: 0 auto;
@@ -136,7 +137,8 @@
 }
 
 #sub-head   {
-     width: 75%;
+    text-shadow: 1px 1px rgba(128, 128, 128, 0.13);
+    width: 75%;
     text-align: center; 
     margin: 8% auto;
     font-family: 'Oswald', sans-serif;
@@ -177,14 +179,49 @@
 }
 
 #social {
-    display: block;
+    float: left;
+    margin-left: 15%;
+    display: inline-block;
     width: 10%;
-    margin-right: auto; margin-left: auto;
+}
+
+#social-facebook {
+    float: left;
+    margin-left: 14%;
+    display: inline-block;
+    width: 12%;
 }
 
 #socialbox   {
-    display: block;
+    display: inline-block;
     width: 100%;
     margin-top: 15%;
-    float: left;
+}
+
+#social-body    {
+    text-shadow: 1px 1px rgba(128, 128, 128, 0.13);
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 5vw;
+    line-height: 135%;
+    margin-top: 2%;
+    margin-left: 10%;
+    color: black;
+}
+
+#social-body:hover {
+    color: rgb(0, 255, 226);
+}
+
+#social-email    {
+    text-shadow: 1px 1px rgba(128, 128, 128, 0.13);
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 5vw;
+    line-height: 135%;
+    margin-top: .1%;
+    margin-left: 10%;
+    color: black;
 }

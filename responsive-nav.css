@@ -6,6 +6,7 @@
 }
 
 .nav-collapse li {
+    text-shadow: 1px 1px rgba(128, 128, 128, 0.13);
     margin-top: 60px;
     margin-bottom: 20px;
     float: right;
