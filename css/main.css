@@ -115,6 +115,22 @@
     font-weight: 400;
 }
 
+#blog-body a    {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#blog-body i    {
+    font-style: italic;   
+}
+
+#blog-body-image    {
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+    margin-left: 15px;
+}
+
 #logo-body  {
     width: 75%;
     text-align: center; 
@@ -268,13 +284,34 @@
 
 #blog-body  {
     width: 75%;
-    text-align: center; 
+    text-align: left;
+    text-indent: 20px;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    font-size: 4vw;
+    font-size: 3.5vw;
     line-height: 135%;
     margin-left: auto; margin-right: auto;
     margin-bottom: 5%; margin-top: 5%;
+}
+
+#blog-body-first  {
+    width: 75%;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 3.5vw;
+    line-height: 135%;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 5%; margin-top: 5%;
+}
+
+#blog-body-first:first-letter {
+    font-size: 260%;
+    float: left;
+    line-height: 1;
+    display: block;
+    margin-right: .75%;
+    margin-bottom: -2px;
 }
 
 #overline-blog {
