@@ -115,22 +115,6 @@
     font-weight: 400;
 }
 
-#blog-body a    {
-    text-decoration: none;
-    font-weight: 400;
-}
-
-#blog-body i    {
-    font-style: italic;   
-}
-
-#blog-body-image    {
-    width: 40%;
-    float: right;
-    margin-right: 10%;
-    margin-left: 15px;
-}
-
 #logo-body  {
     width: 75%;
     text-align: center; 
@@ -282,10 +266,28 @@
     letter-spacing: 2px;
 }
 
+#blog-body a    {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#blog-body i    {
+    font-style: italic;   
+}
+
+#blog-body-image    {
+    width: 40%;
+    float: right;
+    margin-right: 12%;
+    margin-left: 2%;
+    border-style: solid;
+    border-width: 2px;
+}
+
 #blog-body  {
     width: 75%;
-    text-align: left;
-    text-indent: 20px;
+    text-align: justify;
+    
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     font-size: 3.5vw;
@@ -312,6 +314,35 @@
     display: block;
     margin-right: .75%;
     margin-bottom: -2px;
+}
+
+#blg-bdy-img-cap    {
+    float: right;
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 12%;
+    margin-left: 2%;
+    font-size: 2.5vw;
+    font-weight: 300;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+}
+
+#blog-img-cap {
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+    font-size: 2.5vw;
+    font-weight: 300;
+    font-style: italic;
+    color: grey;
+}
+
+#blog-img-cap a {
+    font-gamily: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 2.5vw;
 }
 
 #overline-blog {
