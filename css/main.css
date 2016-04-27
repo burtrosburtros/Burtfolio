@@ -85,7 +85,7 @@
 }
 
 #hero-logo  {
-    width: 40%;
+    width: 60%;
     max-width: 400px;
     margin-left: auto; margin-right: auto; margin-top: 8%;
     display: block;
@@ -94,16 +94,17 @@
 #hero-logo-final  {
     width: 60%;
     max-width: 400px;
-    margin-left: auto; margin-right: auto; margin-top: 10%; margin-bottom: 10%;
+    margin-left: auto; margin-right: auto; margin-top: 10%;           margin-bottom: 10%;
     display: block;
 }
 
 #logos-main {
-    height: 200px;
+    max-width: 200px;
+    max-height: 225px;
 }
 
 #logos  {
-    height: 25vw;
+    width: 200px;
 }
 
 #logos-wide {
@@ -167,6 +168,13 @@
 #layout-roughs {
     margin-top: 10%;
     width: 75%;
+    display: block;
+    margin-left: auto; margin-right: auto;
+}
+
+#kurosawa-roughs    {
+    margin-top: 10%;
+    width: 60%;
     display: block;
     margin-left: auto; margin-right: auto;
 }
@@ -364,6 +372,7 @@
     width: 40%;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin-top: 1px;
     margin-right: 12%;
     margin-left: 2%;
     font-size: 2.5vw;
@@ -378,6 +387,7 @@
     background-color: rgb(0, 0, 0);
     font-family: 'Oswald', sans-serif;
     width: 75%;
+    margin-top: 1px;
     padding-top: 8px;
     padding-bottom: 8px;
     margin-right: auto;
@@ -421,7 +431,7 @@
 
 #blog-final-img {
     width: 100%;
-    margin-top: -5%;
+    margin-top: 5%;
     margin-bottom: -10%;
 }
 
