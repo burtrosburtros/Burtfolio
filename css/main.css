@@ -186,6 +186,11 @@
     margin-left: auto; margin-right: auto;
 }
 
+#socialwrap {
+    width: 100%;
+    margin-top: 15%;
+}
+
 #social {
     float: left;
     margin-left: 15%;
@@ -203,7 +208,7 @@
 #socialbox   {
     display: inline-block;
     width: 100%;
-    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 #social-body    {
@@ -213,7 +218,7 @@
     font-weight: 300;
     font-size: 5vw;
     line-height: 135%;
-    margin-top: 2%;
+    margin-top: 1.6%;
     margin-left: 10%;
     color: black;
 }
@@ -225,8 +230,8 @@
     font-weight: 300;
     font-size: 5vw;
     line-height: 135%;
-    margin-top: 2%;
     margin-left: 9%;
+    margin-top: 3%;
     color: black;
 }
 #social-body:hover {
@@ -235,7 +240,6 @@
 
 #social-body-facebook:hover {
     color: rgb(0, 255, 226);
-
 }
 
 #social-email    {
@@ -245,7 +249,7 @@
     font-weight: 300;
     font-size: 5vw;
     line-height: 135%;
-    margin-top: .1%;
+    margin-top: -.5%;
     margin-left: 10%;
     color: black;
 }
